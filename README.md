@@ -1,2 +1,11 @@
 # Predict-Customer-Churn
+
+В этом репозитории представлено решение для конкурса Kaggle Playground Series, посвященное прогнозированию оттока клиентов с помощью методов машинного обучения. Проект включает в себя предварительную обработку данных, создание и сравнение моделей с помощью Scikit-learn и CatBoost.
+
+Особеностью этого набора данных является большое колличество категориальных признаков. В связи с этим было решено использовать библиотеку CatBoost оптимизированную для работы с категориальными столбцами. В выборке имеется дисбаланс классов. Для борьбы с ним был использован параметр class_weight.
+Метрикой качества была ROC-AUC.
+* RandomForestClassifier ROC AUC score: 0.8949
+* CatBoostClassifier ROC AUC score: 0.9166
+В результате работы CatBoostClassifier показал более хороший результат, для него была построена ROC криивая.
+![ROC-curve.](/[image/Markdown-mark.svg](https://github.com/GeorgyGitRep/Predict-Customer-Churn/blob/main/ROC-Curve.png) "ROC-curve")
 Данные взяты из https://www.kaggle.com/competitions/playground-series-s6e3/overview
