@@ -7,5 +7,5 @@
 * RandomForestClassifier ROC AUC score: 0.8949
 * CatBoostClassifier ROC AUC score: 0.9166
 В результате работы CatBoostClassifier показал более хороший результат, для него была построена ROC криивая.
-![ROC-curve.](/[image/Markdown-mark.svg](https://github.com/GeorgyGitRep/Predict-Customer-Churn/blob/main/ROC-Curve.png) "ROC-curve")
+![ROC-curve.](/image/ROC-Curve.png "ROC-curve")
 Данные взяты из https://www.kaggle.com/competitions/playground-series-s6e3/overview
